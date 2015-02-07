@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    
+    <LinearLayout 
+        android:id="@+id/linearlayout_kellydaysummary_titlelayout"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_weight="1"
+    	android:background="@drawable/layout_border"
+    	android:visibility="gone"
+    	>
+    	<TextView 
+    	    android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:text="KELLYDAY"
+    		android:textColor="#000000"
+    		android:background="#FFFFFF"
+    		android:textSize="14dp"
+    		android:gravity="center"
+    	    />	
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_weight="1"
+    	android:background="@drawable/layout_border"
+    	>
+    	
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:background="#dedede">
+            
+           <TextView
+               android:id="@+id/textview_kellydaysummary_date"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:gravity="center_vertical"
+               android:paddingLeft="5dp"
+               android:text="26/03/14"
+               android:textColor="#000000" />
+
+            <View 
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#bbbbbb"/>
+		</LinearLayout>
+        
+       
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_border"
+            android:layout_weight="3" >
+
+                
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="right|center"   
+            android:background="#dedede"    
+            android:layout_weight="2">
+
+                <Button
+                    android:id="@+id/btn_kellydaysummary_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btn_edit_round_color"
+                    android:padding="3dp"
+                    android:text="Edit"
+                    android:textColor="#ffffff"
+                    android:textSize="12dp" />
+
+                </LinearLayout>
+
+        </LinearLayout>        
+         
+    </LinearLayout>
+
+</LinearLayout>

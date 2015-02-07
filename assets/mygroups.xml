@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<groups>
+	<mygroups>
+        <id>1</id>        
+        <name>Local</name>        
+    </mygroups>
+    <mygroups>
+        <id>2</id>        
+        <name>State</name>        
+    </mygroups>
+    <mygroups>
+        <id>3</id>        
+        <name>National</name>        
+    </mygroups>
+    <mygroups>
+        <id>4</id>        
+        <name>International</name>        
+    </mygroups>
+    <mygroups>
+        <id>5</id>        
+        <name>My PAC</name>        
+    </mygroups>
+</groups>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<homelist>
+	<home>
+        <id>1</id>
+        <icon>calendar</icon>
+        <name>Calendar</name>
+    </home>
+    <home>
+        <id>2</id>
+        <icon>location</icon>
+        <name>Station Locations</name>
+    </home>
+    <home>
+        <id>3</id>
+        <icon>mygroup</icon>
+        <name>My Groups</name>
+    </home>
+    <home>
+        <id>4</id>
+        <icon>mymessages</icon>
+        <name>My Messages</name>
+    </home>
+    <home>
+        <id>5</id>
+        <icon>benefits</icon>
+        <name>Benefits</name>
+    </home>
+    <home>
+        <id>6</id>
+        <icon>resources</icon>
+        <name>Resources</name>
+    </home>
+    <home>
+        <id>7</id>
+        <icon>socialmedia</icon>
+        <name>Social Media</name>
+    </home>
+    <home>
+        <id>8</id>
+        <icon>store</icon>
+        <name>Store</name>
+    </home>
+</homelist>

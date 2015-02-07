@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyFireGroup</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="Navigation">Navigation</string>
+    <string name="Calendar">Calendar</string>
+    <string name="home_navigation">My Group Tracker</string>
+    <string name="title_activity_custom_window">CustomWindow</string>
+    <string name="title_activity_calendar_events">CalendarEvents</string>
+    <string name="title_activity_calendar">Calendar</string>
+    <string name="title_activity_add_appointment">AddAppointment</string>
+    <string name="title_activity_add_kelly_day">AddKellyDay</string>
+    <string name="title_activity_add_sick_time">AddSickTime</string>
+    <string name="title_activity_add_trade_time">AddTradeTime</string>
+    <string name="title_activity_add_vacation_time">AddVacationTime</string>
+    <string name="title_activity_add_workers_group">AddWorkersGroup</string>
+    <string name="title_activity_add_comp_time">AddCompTime</string>
+    <string name="title_activity_add_overtime">AddOvertime</string>
+    <string name="title_activity_appointment_summary">AppointmentSummary</string>
+    <string name="title_activity_edit_appointment">EditAppointment</string>
+    <string name="title_activity_kelly_day_summary">KellyDaySummary</string>
+    <string name="title_activity_edit_kelly_day">EditKellyDay</string>
+    <string name="title_activity_edit_sick_time">EditSickTime</string>
+    <string name="title_activity_edit_trade_time">EditTradeTime</string>
+    <string name="title_activity_archived_trade_time">ArchivedTradeTime</string>
+    <string name="title_activity_edit_vacation_time">EditVacationTime</string>
+    <string name="title_activity_edit_workers_comp">EditWorkersComp</string>
+    <string name="title_activity_edit_overtime">EditOvertime</string>
+    <string name="title_activity_edit_comp_time">EditCompTime</string>
+    <string name="title_activity_sick_time_summary">SickTimeSummary</string>
+    <string name="title_activity_over_time_summary">OverTimeSummary</string>
+    <string name="title_activity_workers_comp_summary">WorkersCompSummary</string>
+    <string name="title_activity_comp_time_summary">CompTimeSummary</string>
+    <string name="title_activity_trade_time_summary">TradeTimeSummary</string>
+    <string name="title_activity_trade_time_archive">TradeTimeArchive</string>
+    <string name="title_activity_vacation_time_summary">VacationTimeSummary</string>
+    <string name="title_activity_station_location">StationLocation</string>
+    <string name="title_activity_my_groups">MyGroupsActivity</string>
+    <string name="title_activity_messages">MessagesActivity</string>
+    <string name="title_activity_benefits">BenefitsActivity</string>
+    <string name="title_activity_resources">ResourcesActivity</string>
+    <string name="title_activity_social_media">SocialMediaActivity</string>
+    <string name="title_activity_expense_tracker">ExpenseTracker</string>
+    <string name="title_activity_add_expense_tracker">AddExpenseTracker</string>
+    <string name="title_activity_edit_expense">EditExpenseActivity</string>
+    <string name="title_activity_calendar_settings">CalendarSettingsActivity</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_base_tab">BaseTabActivity</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_list_allevents">ListAllevents</string>
+    <string name="title_activity_store">StoreActivity</string>
+    <string name="title_activity_shift_type">ShiftType</string>
+    <string name="title_activity_shift">ShiftActivity</string>
+    <string name="title_activity_syncing">SyncingActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_show_message">ShowMessage</string>
+
+</resources>

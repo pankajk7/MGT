@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<socialmeadialink>
+	<socialmedia>
+        <id>1</id>
+        <name>(link1)</name>
+    </socialmedia>
+    <socialmedia>
+        <id>2</id>
+        <name>(link2)</name>
+    </socialmedia>
+    <socialmedia>
+        <id>3</id>
+        <name>(link3)</name>
+    </socialmedia>
+</socialmeadialink>

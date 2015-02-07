@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <color name="green_listview">#6ba06a</color>    
+    <color name="red_listview">#c93b3a</color>    
+    
+    
+    <color name="tabMedium">#2B2B2B</color>
+	<color name="tabDark">#000000</color>
+	<color name="tabTransparent">#10ffffff</color>
+	
+	<color name="white">#ffffff</color>
+	<color name="gray">#c2c2c2</color>
+	
+	<color name="Calendar_white">#efefef</color>
+	<color name="Calendar_gray">#4c4c4c</color>
+	<color name="Calendar_green">#6ba06a</color>
+	<color name="Calendar_red">#c93b3a</color>
+	<color name="Calendar_normal_blue">#0000ff</color>
+	<color name="Calendar_blue">#8585FF</color>
+	<color name="Calendar_cyan">#33d6d6</color>
+	<color name="Calendar_brown">#367199</color>	
+	<color name="Calendar_dodger_blue">#1C86EE</color>
+	<color name="Calendar_yellow_green">#9acd32</color>
+	<color name="Calendar_cobalt_green">#3D9140</color>
+	<color name="Calendar_violet_red">#d02090</color>
+	<color name="Calendar_sky_blue">#4A708B</color>
+	<color name="Calendar_pure_yellow">#ffff00</color>
+	<color name="Calendar_gold">#CDAD00</color>
+	<color name="Calendar_orange">#FF8000</color>
+	<color name="Calendar_orange_red">#EE4000</color>
+	<color name="Calendar_slate_blue">#7171C6</color>	
+	<color name="Calendar_maroon">#800000</color>
+	<color name="Calendar_sap_green">#800000</color>
+	<color name="Calendar_aqua_green">#458B74</color>
+	<color name="Calendar_dark_cyan">#00c78c</color>
+	<color name="Calendar_beet">#8E388E</color>
+	<color name="Calendar_textcolor_onwhite">#aaaaaa</color>
+	<color name="Calendar_textcolor_others">#dddddd</color>
+	<color name="Calendar_day_color">#828282</color>
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#4c566c"
+        android:textStyle="bold"
+        android:textSize="18dp"        
+        android:text="Archived Trade Time Record"/>
+    </LinearLayout>
+    
+    <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:layout_weight="2.3" 
+            android:text="Name"
+            android:textColor="#4c566c"           
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <EditText
+            android:id="@+id/edittext_archivedtradetime_name"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:hint="SMITH, CHRISTOPHER"
+            android:inputType="textCapWords"
+            android:background="@drawable/edittext_round_corners"
+            android:paddingLeft="5dp"
+            android:textSize="14dp" />
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:layout_weight="2.3" 
+            android:text="Date"
+            android:textColor="#4c566c"           
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <EditText
+            android:id="@+id/edittext_archivedtradetime_date"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:hint="26/03/14"
+            android:background="@drawable/edittext_round_corners"
+            android:paddingLeft="5dp"
+            android:textSize="14dp" />
+        
+    </LinearLayout>
+    
+    
+     <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hours"
+            android:textColor="#4c566c"  
+            android:gravity="center|left"
+            android:layout_weight="2.3"        
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <EditText
+            android:id="@+id/edittext_archivedtradetime_hours"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:hint="2"
+            android:background="@drawable/edittext_round_corners"
+            android:paddingLeft="5dp"
+            android:textSize="14dp" />
+        
+    </LinearLayout>
+    
+      <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Note"
+            android:textColor="#4c566c"    
+            android:layout_weight="2.3"        
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <EditText
+            android:id="@+id/edittext_archivedtradetime_note"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:hint="WORKED AT STATION 12"
+            android:inputType="textCapWords"
+            android:background="@drawable/edittext_round_corners"
+            android:paddingLeft="5dp"
+            android:textSize="14dp" />
+        
+    </LinearLayout>
+    
+       <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1" />
+        
+        <Button
+            android:id="@+id/btn_archivedtradetime_iowe"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_yes"
+            android:text="I Owe"
+            android:textColor="#ffffff" />
+        
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1.4" />
+        
+        <Button
+            android:id="@+id/btn_archivedtradetime_owesme"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_no"
+            android:text="Owes Me"
+            android:textColor="#ffffff" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+     
+ 
+ </LinearLayout>

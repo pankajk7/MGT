@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<calendarevents>
+	<calendar>
+        <id>1</id>
+        <icon>appointment</icon>
+        <name>Appointment</name>
+    </calendar>
+    <calendar>
+        <id>2</id>
+        <icon>comptime</icon>
+        <name>Comp Time</name>
+    </calendar>
+    <calendar>
+        <id>3</id>
+        <icon>kellyday</icon>
+        <name>Kelly Day</name>
+    </calendar>
+    <calendar>
+        <id>4</id>
+        <icon>overtime</icon>
+        <name>Overtime</name>
+    </calendar>
+    <calendar>
+        <id>5</id>
+        <icon>sicktime</icon>
+        <name>Sick Time</name>
+    </calendar>
+    <calendar>
+        <id>6</id>
+        <icon>tradetime</icon>
+        <name>Trade Time</name>
+    </calendar>
+    <calendar>
+        <id>7</id>
+        <icon>vacationtime</icon>
+        <name>Vacation Time</name>
+    </calendar>
+    <calendar>
+        <id>8</id>
+        <icon>workerscomp</icon>
+        <name>Workers Comp</name>
+    </calendar>
+</calendarevents>

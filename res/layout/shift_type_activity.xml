@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#4c566c"
+        android:textStyle="bold"
+        android:textSize="18dp"        
+        android:text="Select Shift Type"/>
+    </LinearLayout>
+    
+    
+      <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.1"
+            android:text="Type"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#4c566c" />
+        
+        <Spinner
+            android:id="@+id/spinner_selectshifttype_shifttype"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center" />
+        
+    </LinearLayout>
+    
+      
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+       <Button
+           android:id="@+id/btn_selectshifttype_updateprofile"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_margin="20dp"
+           android:background="@drawable/btn_bottom_purple_color"
+           android:text="Update My Profile"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textColor="#ffffff" />
+
+    </LinearLayout>
+    
+     
+ 
+ </LinearLayout>

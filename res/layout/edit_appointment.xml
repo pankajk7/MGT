@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#4c566c"
+        android:textStyle="bold"
+        android:textSize="18dp"        
+        android:text="Edit Appointment"/>
+    </LinearLayout>
+    
+    <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Date"
+            android:textColor="#4c566c"           
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <EditText
+            android:id="@+id/edittext_editappointment_selectdate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edittext_round_corners"
+            android:hint="26/03/14"
+            android:paddingLeft="5dp"
+            android:textSize="14dp" />
+        
+    </LinearLayout>
+    
+     <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="#4c566c"  
+            android:gravity="right"        
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <EditText
+            android:id="@+id/edittext_editappointment_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edittext_round_corners"
+            android:hint="Doctor appt"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textSize="14dp" />
+        
+    </LinearLayout>
+    
+      <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="Recurring"
+            android:textColor="#4c566c"    
+            android:layout_weight="2.1"        
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <Spinner
+            android:id="@+id/spinner_editappointment_recurring"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:textSize="14dp" />
+        
+    </LinearLayout>
+    
+       <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="center|left"
+            android:text="Share"
+            android:textColor="#4c566c"    
+            android:layout_weight="1"        
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <Button
+            android:id="@+id/btn_editappointment_share_yes"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_yes"
+            android:textColor="#ffffff"
+            android:text="Yes" />
+        
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1.4" />
+        
+        <Button
+            android:id="@+id/btn_editappointment_share_no"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" 
+            android:background="@drawable/btn_no"
+            android:textColor="#ffffff"
+            android:text="No"/>        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+       <Button
+           android:id="@+id/btn_editappointment_calendar"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_margin="5dp"
+           android:background="@drawable/btn_bottom_purple_color"
+           android:text="Edit Appt to Calendar"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textColor="#ffffff" />
+       
+       <Button
+           android:id="@+id/btn_editappointment_delete"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_margin="5dp"
+           android:background="@drawable/btn_bottom_red_color"
+           android:text="Delete Appt"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textColor="#ffffff" 
+           android:visibility="visible"/>
+
+    </LinearLayout>
+     
+ 
+ </LinearLayout>

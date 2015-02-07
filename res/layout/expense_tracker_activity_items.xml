@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@drawable/layout_border"
+    	>
+    	
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1.8">
+            
+           <TextView
+               android:id="@+id/textview_expensetracker_date"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:background="#dedede"
+               android:gravity="center"
+               android:text="26/03/14"
+               android:textColor="#000000" />
+
+            <View 
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#bbbbbb"/>
+		</LinearLayout>
+        
+       
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_border"
+            android:layout_weight="1" >
+
+
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center"
+            android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textview_expensetracker_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#dedede"
+                    android:gravity="center_vertical"
+                    android:text="Station 16"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="#000000" />
+
+         </LinearLayout>
+              
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:gravity="right|center"   
+            android:background="#dedede"    
+            android:layout_weight="2">
+
+                <Button
+                    android:id="@+id/btn_expensetracker_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/btn_edit_round_color"
+                    android:text="Edit"
+                    android:textColor="#ffffff"
+                    android:textSize="12dp" />
+
+        </LinearLayout>
+
+		<View 
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#bbbbbb"/>
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">		
+             
+        <TextView
+            android:id="@+id/textview_expensetracker_amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#dedede"
+            android:gravity="center"
+            android:text="25"
+            android:textColor="#000000" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

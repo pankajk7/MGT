@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#4c566c"
+        android:textStyle="bold"
+        android:textSize="18dp"        
+        android:text="Edit Overtime"/>
+    </LinearLayout>
+    
+      <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Date"
+            android:textColor="#4c566c"           
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <EditText
+            android:id="@+id/edittext_editovertime_selectdate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edittext_round_corners"
+            android:hint="26/03/14"
+            android:paddingLeft="5dp"
+            android:textSize="14dp" />
+        
+    </LinearLayout>
+    
+       <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hours"
+            android:textColor="#4c566c"  
+            android:gravity="center|left"
+            android:layout_weight="2.3"        
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <EditText
+            android:id="@+id/edittext_editovertime_hours"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_round_corners"
+            android:hint="12"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:inputType="number"
+            android:textSize="14dp" />
+        
+    </LinearLayout>
+    
+       <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assignment"
+            android:textColor="#4c566c"           
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <EditText
+            android:id="@+id/edittext_editovertime_assignment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edittext_round_corners"
+            android:hint="abc 123"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textSize="14dp" />
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:layout_weight="2.3" 
+            android:text="Desc 1"
+            android:textColor="#4c566c"           
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <EditText
+            android:id="@+id/edittext_editovertime_desc1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_round_corners"
+            android:hint="abc 123"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textSize="14dp" />
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:layout_weight="2.3" 
+            android:text="Desc 2"
+            android:textColor="#4c566c"           
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <EditText
+            android:id="@+id/edittext_editovertime_desc2"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_round_corners"
+            android:hint="abc 123"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textSize="14dp" />
+        
+    </LinearLayout>
+    
+      
+    
+        <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="center|left"
+            android:text="Share"
+            android:textColor="#4c566c"    
+            android:layout_weight="1"        
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <Button
+            android:id="@+id/btn_editovertime_share_yes"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_yes"
+            android:text="Yes"
+            android:textColor="#ffffff" />
+        
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1.4" />
+        
+        <Button
+            android:id="@+id/btn_editovertime_share_no"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_no"
+            android:text="No"
+            android:textColor="#ffffff" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+       <Button
+           android:id="@+id/btn_editovertime_calendar"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+          
+           android:layout_marginRight="20dp"
+           android:layout_marginLeft="20dp"
+           android:background="@drawable/btn_bottom_purple_color"
+           android:text="Edit Overtime on Calendar"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textColor="#ffffff" />
+          <Button
+           android:id="@+id/btn_editovertime_delete"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+          android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+           android:layout_marginRight="20dp"
+           android:layout_marginLeft="20dp"
+           android:background="@drawable/btn_bottom_red_color"
+           android:text="Delete Overtime"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textColor="#ffffff" 
+           android:visibility="visible"/>
+
+    </LinearLayout>
+     
+ 
+ </LinearLayout>

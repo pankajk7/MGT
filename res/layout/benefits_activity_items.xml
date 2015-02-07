@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	>
+    	
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            
+           <TextView
+               android:id="@+id/textview_mybenefitsitems_name"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:gravity="center|left"
+               android:paddingBottom="3dp"
+               android:paddingLeft="5dp"
+               android:paddingTop="3dp"
+               android:text="Name"
+               android:textColor="#000000"
+               android:textSize="16dp"
+               android:textStyle="bold" />
+            
+		</LinearLayout>
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+               
+              <ImageView
+                  android:id="@+id/imageview_benefits_arrow"
+                  android:layout_width="15dp"
+                  android:layout_height="25dp"
+                  android:layout_marginRight="5dp"
+                  android:layout_weight="6"
+                  android:src="@drawable/arrow" />
+
+                </LinearLayout>
+
+     
+    </LinearLayout>
+
+</LinearLayout>

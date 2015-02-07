@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<resource>
+        <id>1</id>
+        <name>Contract</name>
+    </resource>
+    <resource>
+        <id>2</id>
+        <name>Off Duty Service/Classifieds</name>
+    </resource>
+    <resource>
+        <id>3</id>
+        <name>Rules &amp; Regulations</name>
+    </resource>
+    <resource>
+        <id>4</id>
+        <name>Elections</name>
+    </resource>
+    <resource>
+        <id>5</id>
+        <name>Publications</name>
+    </resource>
+    <resource>
+        <id>6</id>
+        <name>Points of Interest</name>
+    </resource>
+    <resource>
+        <id>7</id>
+        <name>Ovetime List</name>
+    </resource>
+    <resource>
+        <id>8</id>
+        <name>Expense Tracker</name>
+    </resource>
+</resources>

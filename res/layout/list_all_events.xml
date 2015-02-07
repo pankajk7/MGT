@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+ 
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#4c566c"
+        android:textStyle="bold"
+        android:textSize="18dp"        
+        android:text="All Events"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/layout_border"
+    	>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"
+            android:background="#f4f4f4">
+            
+           <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:textSize="10dp"
+            android:text="START"
+            android:textColor="#666666"            
+            android:gravity="center_vertical"/>
+           
+		</LinearLayout>
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3"
+            android:background="#f4f4f4">
+            
+           <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:text="END"
+            android:textColor="#666666"            
+            android:gravity="center_vertical"/>
+           
+		</LinearLayout>
+		
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#f4f4f4" >
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center"
+            android:layout_weight="1">
+            
+            <TextView
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_weight="1"
+            	android:layout_marginLeft="5dp"
+            	android:textSize="10dp"
+            	android:text="ASSIGNMENT"
+            	android:textColor="#666666"            
+            	android:gravity="center_vertical"/>
+           </LinearLayout>
+           
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center"
+            android:layout_weight="2">
+            
+               </LinearLayout>
+     </LinearLayout>
+     
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:background="#f4f4f4" >
+            
+           <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:text="HRS"
+            android:textColor="#666666"            
+            android:gravity="center_vertical"/>
+           
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_weight="25"
+        android:orientation="vertical" >
+    
+      <ListView
+		android:id="@+id/list_listallevents_vacationlist"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:divider="#bbbbbb"
+          android:dividerHeight="3dp" />
+
+      </LinearLayout>   
+    
+        
+ </LinearLayout>

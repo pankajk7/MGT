@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/layout_border"
+    	>
+    	
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1.2">
+            
+           <TextView
+               android:id="@+id/textview_listallevents_vacation_startdate"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:background="#dedede"
+               android:gravity="center"
+               android:text="26/03/2014"
+               android:textColor="#000000" />
+
+            <View 
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#bbbbbb"/>
+		</LinearLayout>
+        
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1.2">
+            
+           <TextView
+               android:id="@+id/textview_listallevents_vacation_enddate"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:background="#dedede"
+               android:gravity="center"
+               android:text="26/03/2014"
+               android:textColor="#000000" />
+
+            <View 
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#bbbbbb"/>
+		</LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_border"
+            android:layout_weight="1" >
+
+<!--             <RelativeLayout -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" > -->
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textview_listallevents_vacation_notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#dedede"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="2"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="1dp"
+                    android:text="abc 123"
+                    android:textColor="#000000" />
+
+         </LinearLayout>
+          <View 
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#bbbbbb"/>
+         </LinearLayout>
+                
+		
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">		
+             
+        <TextView
+            android:id="@+id/textview_listallevents_vacation_hours"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#dedede"
+            android:gravity="center"
+            android:text="25"
+            android:textColor="#000000" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

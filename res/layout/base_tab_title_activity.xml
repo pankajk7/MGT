@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout_base"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+	    android:id="@+id/layout_baselayout_titlelayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="4.14"
+	    android:background="@drawable/titlebar"
+	    android:padding="2dp" >
+	    
+	    <Button
+	        android:id="@+id/btn_backbutton"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="2"
+	        android:background="@drawable/backbutton"
+	        android:gravity="center"
+	        android:padding="2dp"
+	        android:text="Back"
+	        android:textColor="#ffffff"
+	        android:textSize="14dp"
+	        android:visibility="invisible" />
+	
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1">
+		<TextView 
+			android:layout_width="match_parent" 
+			android:layout_height="match_parent"
+			android:textSize="20dp"
+			android:paddingRight="5dip"
+			android:layout_weight="1"
+			android:textStyle="bold"
+			android:textColor="#ffffff"
+			android:gravity="center|clip_vertical"
+			android:text="My Fire Group" />
+	   </LinearLayout>
+
+	   <Button
+	       android:layout_width="match_parent"
+	       android:layout_height="match_parent"
+	       android:layout_weight="2"
+	       android:background="@drawable/helpbutton"
+	       android:textSize="14dp"
+	       android:text="Help"	       
+	       android:textColor="#ffffff" />
+				
+	</LinearLayout>
+	
+     <LinearLayout
+         android:id="@+id/layout_basetabtitleActivity_static"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_gravity="center_vertical"
+         android:layout_weight="4.14"
+         android:background="@drawable/static_ad_background"
+         android:orientation="vertical" >
+
+        <TextView 
+        android:id="@+id/textview_basetabtitle_staticbanner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="Static Ad"
+        android:visibility="gone"/>       
+    </LinearLayout>
+    
+    <!-- <LinearLayout
+        android:id="@+id/container_layout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#ffffff" >
+        
+    </LinearLayout> -->
+    
+    <FrameLayout
+        android:id="@+id/layout_basecontainer"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#ffffff" >
+
+        </FrameLayout>
+        
+      
+
+</LinearLayout>

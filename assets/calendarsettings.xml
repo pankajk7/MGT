@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<calendar>
+	<calendarsettings>
+        <id>1</id>
+        <name>Edit Profile Settings</name>
+    </calendarsettings>
+    <calendarsettings>
+        <id>2</id>
+        <name>Select Shift Type</name>
+    </calendarsettings>
+    <calendarsettings>
+        <id>3</id>
+        <name>Select Shift</name>
+    </calendarsettings>
+    <calendarsettings>
+        <id>4</id>
+        <name>My Sharing Network</name>
+    </calendarsettings>
+      <calendarsettings>
+        <id>5</id>
+        <name>Change Password</name>
+    </calendarsettings>
+  </calendar>

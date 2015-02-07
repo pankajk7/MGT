@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+    	
+         
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+     
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textview_tradetimearchive_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:paddingLeft="3dp"
+                    android:text="SMITH CHRISTOPHER"
+                    android:textColor="#FFFFFF" />
+
+                <View 
+            	android:layout_width="5dp"
+            	android:layout_height="match_parent"
+            	android:layout_weight="1"
+            	android:background="#bbbbbb"/>
+        </LinearLayout>
+        
+		
+         </LinearLayout>
+
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1.7">
+            
+           <TextView
+               android:id="@+id/textview_tradetimearchive_date"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:padding="2dp"
+               android:text="26/03/14"
+               android:textColor="#FFFFFF" />
+
+            <View 
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#bbbbbb"/>
+		</LinearLayout>
+		
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">		
+             
+        <TextView
+            android:id="@+id/textview_tradetimearchive_hour"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="25"
+            android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#4c566c"
+        android:textStyle="bold"
+        android:textSize="18dp" 
+        android:padding="7dp"       
+        android:text="Add Sharing Invitation"/>
+    </LinearLayout>
+    
+    <LinearLayout         
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">      
+
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Email"
+            android:textColor="#4c566c"           
+            android:textAppearance="?android:attr/textAppearanceMedium" />        
+        
+         <EditText
+             android:id="@+id/edittext_addsharinginvitation_email"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:background="@drawable/edittext_round_corners" />
+
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+       <Button
+           android:id="@+id/btn_addsharinginvitation_add"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_margin="20dp"
+           android:background="@drawable/btn_bottom_purple_color"
+           android:text="Add Sharing Invitation"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textColor="#ffffff" />
+
+    </LinearLayout>
+     
+ 
+ </LinearLayout>

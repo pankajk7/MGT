@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    
+      <LinearLayout 
+        android:id="@+id/linearlayout_comptimesummary_titlelayout"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_weight="1"
+    	android:background="@drawable/layout_border"
+    	android:visibility="gone"
+    	>
+    	<TextView 
+    	    android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:text="COMP TIME"
+    		android:textColor="#000000"
+    		android:background="#FFFFFF"
+    		android:textSize="14dp"
+    		android:gravity="center"
+    	    />	
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_weight="1"
+    	>
+    	
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1.2">
+            
+           <TextView
+               android:id="@+id/textview_comptimesummary_date"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:text="26/03/14"
+               android:textColor="#FFFFFF" />
+
+            <View 
+            android:layout_width="3dp"
+            android:layout_height="wrap_content"
+            android:background="#bbbbbb"/>
+		</LinearLayout>
+		        
+		
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">		
+             
+        <TextView
+            android:id="@+id/textview_comptimesummary_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:paddingLeft="3dp"
+            android:text="Earned"
+            android:textColor="#FFFFFF" />
+        
+        <View 
+            android:layout_width="3dp"
+            android:layout_height="wrap_content"
+            android:background="#bbbbbb"/>
+
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"   
+            android:layout_weight="1.5">
+            
+           <TextView
+               android:id="@+id/textview_comptimesummary_hours"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:text="7"
+               android:textColor="#FFFFFF" />
+
+           <View 
+            android:layout_width="3dp"
+            android:layout_height="match_parent"        
+            android:background="#bbbbbb"/>
+		</LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_weight="1.5"   >
+
+                <Button
+                    android:id="@+id/btn_comptimesummary_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_edit_round_color"
+                    android:padding="1dp"
+                    android:text="Edit"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:textColor="#ffffff"
+                    android:textSize="12dp" />
+
+                </LinearLayout>
+         
+    </LinearLayout>
+
+</LinearLayout>

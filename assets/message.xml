@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<messages>
+	<message>
+        <id>1</id>
+        <date>27/03/14</date>
+        <time>16:00</time>
+        <header>COMMITTEE MEETING COMING SOON</header>
+        <text>Simple message test for members. In here is the content of the message.</text>
+    </message>
+    <message>
+        <id>2</id>
+        <date>27/03/14</date>
+        <time>16:00</time>
+        <header>COMMITTEE MEETING COMING SOON</header>
+        <text>Simple message test for members. In here is the content of the message.</text>
+    </message>
+    <message>
+        <id>3</id>
+        <date>27/03/14</date>
+        <time>16:00</time>
+        <header>COMMITTEE MEETING COMING SOON</header>
+        <text>Simple message test for members. In here is the content of the message.</text>
+    </message>
+    <message>
+        <id>4</id>
+        <date>27/03/14</date>
+        <time>16:00</time>
+        <header>COMMITTEE MEETING COMING SOON</header>
+        <text>Simple message test for members. In here is the content of the message.</text>
+    </message>
+    <message>
+        <id>5</id>
+        <date>27/03/14</date>
+        <time>16:00</time>
+        <header>COMMITTEE MEETING COMING SOON</header>
+        <text>Simple message test for members. In here is the content of the message.</text>
+    </message>
+</messages>

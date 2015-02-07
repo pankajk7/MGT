@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    
+     <LinearLayout 
+        android:id="@+id/linearlayout_sicktimesummary_titlelayout"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_weight="1"
+    	android:background="@drawable/layout_border"
+    	android:visibility="gone"
+    	>
+    	<TextView 
+    	    android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:text="SICK TIME"
+    		android:textColor="#000000"
+    		android:background="#FFFFFF"
+    		android:textSize="14dp"
+    		android:gravity="center"
+    	    />	
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	android:background="@drawable/layout_border"
+    	>
+    	
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1.7">
+            
+           <TextView
+               android:id="@+id/textview_sicktimesummary_date"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:background="#dedede"
+               android:gravity="center"
+               android:text="26/03/14"
+               android:textColor="#000000" />
+
+            <View 
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#bbbbbb"/>
+		</LinearLayout>
+        
+       
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_border"
+            android:layout_weight="1" >
+
+<!--             <RelativeLayout -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" > -->
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center"
+            android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textview_sicktimesummary_notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#dedede"
+                    android:paddingLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:text="abc 123"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textColor="#000000" />
+
+         </LinearLayout>
+                
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:gravity="right|center"   
+            android:background="#dedede"    
+            android:layout_weight="2">
+
+                <Button
+                    android:id="@+id/btn_sicktimesummary_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:textSize="12dp"
+                    android:padding="3dp"
+                    android:background="@drawable/btn_edit_round_color"
+                    android:text="Edit"
+                    android:textColor="#ffffff" />
+
+                </LinearLayout>
+<!--             </RelativeLayout> -->
+
+		<View 
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#bbbbbb"/>
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">		
+             
+        <TextView
+            android:id="@+id/textview_sicktimesummary_hours"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#dedede"
+            android:gravity="center"
+            android:text="25"
+            android:textColor="#000000" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

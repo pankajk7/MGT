@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    
+     <LinearLayout 
+        android:id="@+id/linearlayout_workerscompsummary_titlelayout"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_weight="1"
+    	android:background="@drawable/layout_border"
+    	android:visibility="gone"
+    	>
+    	<TextView 
+    	    android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:text="WORKERS COMP"
+    		android:textColor="#000000"
+    		android:background="#FFFFFF"
+    		android:textSize="14dp"
+    		android:gravity="center"
+    	    />	
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_weight="1"
+    	android:background="@drawable/layout_border"
+    	>
+    	
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1.2">
+            
+           <TextView
+               android:id="@+id/textview_workerscomp_injurydate"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:background="#dedede"
+               android:gravity="center"
+               android:text="26/03/2014"
+               android:textColor="#000000" />
+
+            <View 
+            android:layout_width="3dp"
+            android:layout_height="wrap_content"
+            android:background="#bbbbbb"/>
+		</LinearLayout>
+		
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1.2">
+            
+           <TextView
+               android:id="@+id/textview_workerscomp_returndate"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:background="#dedede"
+               android:gravity="center"
+               android:text="27/03/2014"
+               android:textColor="#000000" />
+
+           <View 
+            android:layout_width="3dp"
+            android:layout_height="wrap_content"            
+            android:background="#bbbbbb"/>
+		</LinearLayout>
+		
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">		
+             
+        <TextView
+            android:id="@+id/textview_workerscomp_notes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#dedede"
+            android:gravity="left|center"
+            android:paddingLeft="3dp"
+            android:text="abc 123"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="#000000" />
+        
+        <View 
+            android:layout_width="3dp"
+            android:layout_height="wrap_content"
+            android:background="#bbbbbb"/>
+
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|center"   
+             android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:background="#dedede" 
+            android:layout_weight="1.4"   >
+
+                <Button
+                    android:id="@+id/btn_workerscompsummary_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btn_edit_round_color"
+                    android:padding="1dp"
+                    android:text="Edit"
+                    android:textColor="#ffffff"
+                    android:textSize="12dp" />
+
+                </LinearLayout>
+         
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+ 
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#4c566c"
+        android:textStyle="bold"
+        android:textSize="18dp"        
+        android:text="Workers Comp Summary"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/layout_border"
+    	>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.7"
+            android:background="#f4f4f4">
+            
+           <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+			android:paddingLeft="3dp"
+            android:text="INJURY DATE"
+            android:textSize="9dp"
+            android:textColor="#666666"            
+            android:gravity="center_vertical"/>
+           
+		</LinearLayout>
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.7"
+            android:background="#f4f4f4">
+            
+           <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:text="RETURN DATE"
+            android:textSize="9dp"
+            android:textColor="#666666"            
+            android:gravity="center_vertical"/>
+           
+		</LinearLayout>
+		
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:background="#f4f4f4" >
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center"
+            android:layout_weight="1">
+            
+            <TextView
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_weight="1"
+            	android:paddingLeft="7dp"
+            	android:text="NOTES"
+            	android:textSize="9dp"
+            	android:textColor="#666666"            
+            	android:gravity="center_vertical"/>
+           </LinearLayout>
+           
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center"
+            android:layout_weight="2">
+            
+               </LinearLayout>
+     </LinearLayout>
+     
+     
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1.2"
+        android:orientation="vertical" >
+    
+    <ListView
+        android:id="@+id/list_workerscompsummary"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:divider="#bbbbbb"
+        android:dividerHeight="3dp" />
+
+    </LinearLayout>   
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.3"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+    
+        <Button
+            android:id="@+id/btn_workerscompsummary_addworkercomp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_bottom_red_color"
+            android:text="Add Workers Comp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        
+       <Button
+           android:id="@+id/btn_workerscompsummary_email"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           android:layout_marginTop="5dp"
+           android:background="@drawable/btn_bottom_purple_color"
+           android:text="Email WC Summary"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textColor="#ffffff"
+           android:textStyle="bold" />
+
+    </LinearLayout>
+    
+ </LinearLayout>

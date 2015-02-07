@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<benefits>
+	<benefit>
+        <id>1</id>
+        <name>Medical</name>
+    </benefit>
+    <benefit>
+        <id>2</id>
+        <name>Dental</name>
+    </benefit>
+    <benefit>
+        <id>3</id>
+        <name>Vision</name>
+    </benefit>
+    <benefit>
+        <id>4</id>
+        <name>Pension</name>
+    </benefit>
+    <benefit>
+        <id>5</id>
+        <name>Legal</name>
+    </benefit>
+    <benefit>
+        <id>6</id>
+        <name>Retiree</name>
+    </benefit>
+    <benefit>
+        <id>7</id>
+        <name>Pharmacy</name>
+    </benefit>
+    <benefit>
+        <id>8</id>
+        <name>Workers Comp</name>
+    </benefit>
+</benefits>

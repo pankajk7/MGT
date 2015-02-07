@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mygrouptracker.mygrouptracker"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon_latest"
+        android:label="@string/app_name"
+        android:theme="@style/app_theme" >
+        <activity
+            android:name=".activity.SplashActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.Home_Navigation"
+            android:label="@string/home_navigation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.BaseClass"
+            android:label="@string/title_activity_custom_window"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".activity.CalendarEvents"
+            android:label="@string/title_activity_calendar_events"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".activity.Calendar"
+            android:label="@string/title_activity_calendar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.AddAppointment"
+            android:label="@string/title_activity_add_appointment"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".activity.AddKellyDay"
+            android:label="@string/title_activity_add_kelly_day"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.AddSickTime"
+            android:label="@string/title_activity_add_sick_time"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.AddTradeTime"
+            android:label="@string/title_activity_add_trade_time"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.AddVacationTime"
+            android:label="@string/title_activity_add_vacation_time"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.AddWorkersComp"
+            android:label="@string/title_activity_add_workers_group"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.AddCompTime"
+            android:label="@string/title_activity_add_comp_time"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.AddOvertime"
+            android:label="@string/title_activity_add_overtime"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.AppointmentSummary"
+            android:label="@string/title_activity_appointment_summary"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.EditAppointment"
+            android:label="@string/title_activity_edit_appointment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.KellyDaySummary"
+            android:label="@string/title_activity_kelly_day_summary"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.EditKellyDay"
+            android:label="@string/title_activity_edit_kelly_day"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.EditSickTime"
+            android:label="@string/title_activity_edit_sick_time"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.EditTradeTime"
+            android:label="@string/title_activity_edit_trade_time"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.ArchivedTradeTime"
+            android:label="@string/title_activity_archived_trade_time"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.EditVacationTime"
+            android:label="@string/title_activity_edit_vacation_time"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.EditWorkersComp"
+            android:label="@string/title_activity_edit_workers_comp"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.EditOvertime"
+            android:label="@string/title_activity_edit_overtime"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.EditCompTime"
+            android:label="@string/title_activity_edit_comp_time"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.SickTimeSummary"
+            android:label="@string/title_activity_sick_time_summary"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.OverTimeSummary"
+            android:label="@string/title_activity_over_time_summary"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.WorkersCompSummary"
+            android:label="@string/title_activity_workers_comp_summary"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.CompTimeSummary"
+            android:label="@string/title_activity_comp_time_summary"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.TradeTimeSummary"
+            android:label="@string/title_activity_trade_time_summary"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.TradeTimeArchive"
+            android:label="@string/title_activity_trade_time_archive"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.VacationTimeSummary"
+            android:label="@string/title_activity_vacation_time_summary"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.StationLocation"
+            android:label="@string/title_activity_station_location"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.MyGroupsActivity"
+            android:label="@string/title_activity_my_groups"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.MessagesActivity"
+            android:label="@string/title_activity_messages"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.BenefitsActivity"
+            android:label="@string/title_activity_benefits"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.ResourcesActivity"
+            android:label="@string/title_activity_resources"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.SocialMediaActivity"
+            android:label="@string/title_activity_social_media"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.ExpenseTracker"
+            android:label="@string/title_activity_expense_tracker"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.AddExpenseTracker"
+            android:label="@string/title_activity_add_expense_tracker"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.EditExpenseActivity"
+            android:label="@string/title_activity_edit_expense"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.CalendarSettingsActivity"
+            android:label="@string/title_activity_calendar_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.BaseTabTitleActivity"
+            android:label="@string/title_activity_test"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".activity.BaseTabActivity"
+            android:label="@string/title_activity_base_tab"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".activity.RegistrationActivity"
+            android:label="@string/title_activity_registration"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.LocationActivity"
+            android:label="@string/title_activity_location"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyC_sE_l0zu_UUsHSfDQFkzid4f-sS-Axdw" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".activity.ListAllevents"
+            android:label="@string/title_activity_list_allevents" >
+        </activity>
+        <activity
+            android:name=".activity.StoreActivity"
+            android:label="@string/title_activity_store" >
+        </activity>
+        <activity
+            android:name=".activity.ShiftTypeActivity"
+            android:label="@string/title_activity_shift_type" >
+        </activity>
+        <activity
+            android:name=".activity.ShiftActivity"
+            android:label="@string/title_activity_shift" >
+        </activity>
+        <activity
+            android:name=".activity.SyncingActivity"
+            android:label="@string/title_activity_syncing" >
+        </activity>
+        <activity
+            android:name="com.mygrouptracker.mygrouptracker.activity.ShowMessageActivity"
+            android:label="@string/title_activity_show_message" >
+        </activity>
+    </application>
+
+</manifest>

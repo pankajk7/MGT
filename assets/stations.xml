@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stationlocations>
+	<stations>
+        <id>1</id>        
+        <name>Station #47</name>        
+    </stations>
+    <stations>
+        <id>2</id>        
+        <name>Station #48</name>        
+    </stations>
+    <stations>
+        <id>3</id>        
+        <name>Station #49</name>        
+    </stations>
+    <stations>
+        <id>4</id>        
+        <name>Station #50</name>        
+    </stations>    
+</stationlocations>
